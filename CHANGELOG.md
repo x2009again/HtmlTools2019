@@ -24,6 +24,7 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+增加abp-src、abp-href支持，支持mvc模式引用文件
 
 ## 1.0
 

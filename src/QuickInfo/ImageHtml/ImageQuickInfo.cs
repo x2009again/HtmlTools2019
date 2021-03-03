@@ -17,7 +17,7 @@ namespace HtmlTools
 {
     internal class ImageHtmlQuickInfo : IQuickInfoSource
     {
-        private static readonly BitmapFrame noPreview = Freeze(BitmapFrame.Create(new Uri("pack://application:,,,/HtmlTools;component/Resources/nopreview.png")));
+        private static readonly BitmapFrame noPreview = Freeze(BitmapFrame.Create(new Uri("pack://application:,,,/HtmlTools(ABP Suport);component/Resources/nopreview.png")));
 
         private static T Freeze<T>(T obj) where T : Freezable { obj.Freeze(); return obj; }
 

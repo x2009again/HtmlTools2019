@@ -6,7 +6,7 @@ namespace HtmlTools
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
-    [Guid("d87af1f6-eee2-4a46-885a-372d215b98a3")]
+    [Guid("3e13f8c1-7dbc-4422-a281-055d45e2909e")]
     public sealed class HtmlToolsPackage : AsyncPackage
     {
 

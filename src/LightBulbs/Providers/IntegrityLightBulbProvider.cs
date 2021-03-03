@@ -30,7 +30,7 @@ namespace HtmlTools
                 return false;
             }
 
-            string url = (element.GetAttribute("src") ?? element.GetAttribute("href"))?.Value;
+            string url = (element.GetAttribute("src") ?? element.GetAttribute("href") ?? element.GetAttribute("abp-src") ?? element.GetAttribute("abp-href"))?.Value;
 
             if (string.IsNullOrEmpty(url) || (!url.Contains("://") && !url.StartsWith("//")))
             {
