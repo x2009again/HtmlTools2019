@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="c23ab861-57f8-4b5f-87ae-834fac4da7aa" Version="1.0.2" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="c23ab861-57f8-4b5f-87ae-834fac4da7aa" Version="1.0.3" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>HTML Tools 2019(ABP Suport)</DisplayName>
         <Description xml:space="preserve">Productivity tools for the HTML editor</Description>
         <MoreInfo>https://github.com/x2009again/HtmlTools2019</MoreInfo>
