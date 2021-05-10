@@ -92,7 +92,17 @@ namespace HtmlTools
             }
 
             text = Uri.UnescapeDataString(text);
-            return ProjectHelpers.ToAbsoluteFilePath(text, sourceFilename);
+            string absolute= ProjectHelpers.ToAbsoluteFilePath(text, sourceFilename);
+            string dotnetcoreabsolute = ProjectHelpers.ToAbsoluteFilePath("/wwwroot" + text, sourceFilename);
+            if (File.Exists(absolute))
+            {
+                return absolute;
+            }
+            else if (File.Exists(dotnetcoreabsolute))
+            {
+                return dotnetcoreabsolute;
+            }
+            return absolute;
         }
 
         public static void AddImageContent(IList<object> qiContent, string url)
